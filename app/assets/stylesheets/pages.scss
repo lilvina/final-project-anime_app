@@ -1,0 +1,56 @@
+ // Place all the styles related to the Pages controller here.
+ // They will automatically be included in application.css.
+ // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {
+	color: #EC2008;
+	text-align: center;
+}
+
+.text-jumbo {
+	font-size: 60px;
+	font-weight: 700;
+}
+
+h2 {
+	margin-top: 160px;
+	margin-bottom: 11px;
+}
+
+.btn {
+	display: inline-block;
+	margin-bottom: 0;
+	border-radius: 2px;
+	border: 1px solid;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	line-weight: 1.43;
+	-webkit-user-select: none;
+	white-space: nowrap;
+	cursor: pointer;
+	color: #fff;
+}
+
+.btn-large {
+	padding: 9px 27px;
+	font-size: 16px;
+}
+
+.h4 {
+	margin-bottom: 17px;
+}
+
+.navbar-brand {
+	float: left;
+	height: 50px;
+	padding: 15px 15px;
+	font-size: 21px;
+	line-height: 20px;
+	color: #fff;
+}
+
+a {
+	color: #F30A0A;
+}

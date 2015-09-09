@@ -1,0 +1,18 @@
+#test{
+    position: absolute;
+    min-height:100%;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    outline: solid 20px black;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;    
+    -o-background-size: cover;      
+    background-size: cover;         
+}
+
+video#test {
+    width: 1363px;
+}

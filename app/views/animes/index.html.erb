@@ -1,0 +1,55 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h1>Poll</h1>
+			<p>Pick a genre you like.</p>
+
+			<hr>
+
+			<form method="post" action="/anime/search">
+				<%= token_tag form_authenticity_token %>
+				<strong>Anime Genres</strong>
+				<div class="radio">
+				    <label>
+				    	<input type="radio" name="genre" value="Action">
+				    	Action
+				    </label>
+				</div>
+				<div class="radio">
+				    <label>
+				    	<input type="radio" name="genre" value="Adventure">
+				    	Adventure
+				    </label>
+				</div>
+				<div class="radio">
+				    <label>
+				    	<input type="radio" name="genre" value="Comedy">
+				    	Comedy
+				    </label>
+				</div>
+				<div class="radio">
+				    <label>
+				    	<input type="radio" name="genre" value="Romance">
+				    	Romance
+				    </label>
+				</div>
+				<div class="radio">
+				    <label>
+				    	<input type="radio" name="genre" value="Sci-fi">
+				    	Sci-fi
+				    </label>
+				</div>
+				<div class="radio">
+				    <label>
+				    	<input type="radio" name="genre" value="Drama">
+				    	Drama
+				    </label>
+				</div>
+				<input type="submit" value="search" class="btn btn-black">			
+			</form>
+		</div>
+	</div>
+</div>
+
+
+
