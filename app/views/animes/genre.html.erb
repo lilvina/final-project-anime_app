@@ -1,6 +1,6 @@
-<h1>Here are the results</h1>
+<h1>Here are your recommendations:</h1>
 <% @results.each do |result| %>
 	<p><%= result.name %></p>
 	<p><%= result.description %></p>
-	<img src="<%= result.image %>" height="50px" width="50px">
+	<img src= "<%=result.image%>">
 <% end %>

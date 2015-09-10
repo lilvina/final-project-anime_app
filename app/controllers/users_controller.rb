@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+ before_action :authorize, only: [:show, :index]
 
 	def index
 	end
