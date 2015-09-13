@@ -5,6 +5,7 @@
 	<%= form_for :user, url: sessions_path, :html => {:id => "login-form"} do |f| %>
 	  <div class="form-group">
 
+			<!-- CJ: if you're going to put flash messages in your forms like this, make sure you use a partial to DRY up the code -->
 			<% flash.each do |name, msg| %>
 		    <%= content_tag :div, msg, class: "alert #{name == 'error' ? 'alert-danger' : 'alert-notice'}" %>
 		  <% end %>
