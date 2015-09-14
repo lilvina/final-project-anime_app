@@ -1,3 +1,6 @@
+// CJ: small thing, but I would just put these styles in `pages.scss`
+// rather than giving them their own stylesheet
+
 .header {
     height: 500px;
     overflow: hidden;
